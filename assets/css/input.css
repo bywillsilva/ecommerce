@@ -11,6 +11,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.input { 
+    touch-action: none;
+} 
+
 .input:focus {
     outline: 2px solid var(--primary-color);
     background-color: #f3923780;
