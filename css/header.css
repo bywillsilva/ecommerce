@@ -1,0 +1,45 @@
+header {
+    width: 100%;
+    align-items: center;
+    padding: 15px 0;
+    z-index: 1;
+    position: fixed;
+    background-color: var(--white);
+}
+
+.logo {
+    width: 3.5rem;
+}
+
+header nav {
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div {
+    align-items: center;
+}
+
+header h2 {
+    position: relative;
+    left: -20px;
+    color: var(--primary);
+    font-size: var(--subtitle);
+    font-style: italic;
+    font-weight: bolder;
+}
+
+header ul {
+    list-style: none;
+    align-items: center;
+}
+
+header li {
+    font-size: var(--text);
+    padding-left: 40px;
+}
+
+.bag {
+    width: 20px;
+}

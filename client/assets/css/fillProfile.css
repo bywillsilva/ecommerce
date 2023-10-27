@@ -1,0 +1,18 @@
+form .imgProfile {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+}
+
+form .profile {
+    align-items: flex-end;
+    position: relative;
+    width: 130px;
+    margin: 10px 0;
+}
+
+form .profile .icon {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}

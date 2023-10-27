@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./../css/main.css">
+        <link rel="stylesheet" href="./../css/button.css">
+        <link rel="stylesheet" href="./../css/setCode.css">
+        <title>Confirmar código</title>
+    </head>
+    <body class="flex-column">
+        <main class="flex-column content">
+            <nav class="actions">
+                <ul class="flex-row">
+                    <li><img src="./../icons/Back Icon.png" class="icon" srcset=""></li>
+                    <li>
+                        <h3>Esqueci a senha</h3>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="flex-column code">
+                <p>Insira o código que enviamos para wi****@gmail.com</p>
+                <div class="flex-row">
+                    <input class="input" type="text" maxlength="1">
+                    <input class="input" type="text" maxlength="1">
+                    <input class="input" type="text" maxlength="1">
+                    <input class="input" type="text" maxlength="1">
+                </div>
+                <div class="flex-row time">
+                    <a href="#">Reenviar código</a>
+                    <p>10s</p>
+                </div>
+            </div>
+            <button>Confirmar</button>
+            
+        </main>
+        <script src="./../scripts/setCode.js" defer></script>
+    </body>
+
+</html>

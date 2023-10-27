@@ -1,0 +1,60 @@
+.novidades {
+    width: 100%;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+
+.novidades div {
+    width: 100%;
+    flex: 1;
+    text-align: center;
+    padding: 50px 50px 100px 50px;
+}
+
+.novidades img {
+    width: 6rem
+}
+
+.novidades h2 {
+    font-size: var(--subtitle);
+    text-align: center;
+    font-style: italic;
+}
+
+.novidades p {
+    font-size: var(--description);
+    font-weight: lighter;
+    margin: 10px 0;
+}
+
+.novidades .recomendado {
+    background-image: linear-gradient(to right, #fd9b53, #fdab50);
+    align-items: center;
+    justify-content: center;
+}
+
+.novidades .recomendado button {
+    margin-top: 20px;
+}
+
+
+.novidades .destaque {
+    background-image: linear-gradient(to right, #b245fe, #7164e7, #5c85e8);
+    align-items: center;
+    justify-content: center;
+}
+
+.novidades .destaque img {
+    width: 4rem;
+    margin: 20px 0;
+}
+
+.novidades .envio {
+    background-image: linear-gradient(to right, #d33ab0, #dc3a93);
+    align-items: center;
+    justify-content: center;
+}
+
+.novidades .envio img {
+    margin-bottom: 30px;
+}
