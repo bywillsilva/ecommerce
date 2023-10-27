@@ -1,6 +1,6 @@
 .novidades {
     width: 100%;
-    margin: 50px 0;
+    /* margin: 50px 0; */
     flex-wrap: wrap;
 }
 
@@ -39,7 +39,7 @@
 
 
 .novidades .destaque {
-    background-image: linear-gradient(to right, #b245fe, #7164e7, #5c85e8);
+    background-image: linear-gradient(to right, #b245fe, #5c85e8);
     align-items: center;
     justify-content: center;
 }

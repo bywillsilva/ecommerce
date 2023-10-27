@@ -7,8 +7,9 @@
 }
 
 :root {
-    --primary: #2c6ce1;
+    --primary: #e12c2c;
     --white: #fff;
+    --black: #111211;
     --text: 1rem;
     --title: 4.5rem;
     --subtitle: 2.5rem;
@@ -28,6 +29,7 @@
 
 a {
     text-decoration: none;
+    color: var(--black);
 }
 
 p {

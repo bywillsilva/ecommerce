@@ -5,7 +5,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-around;
     box-sizing: border-box;
-    background-image: linear-gradient(to right, #b245fe, #7164e7, #5c85e8);
+    background-image: linear-gradient(to right, #160025, #000c27);
 }
 
 footer div,
