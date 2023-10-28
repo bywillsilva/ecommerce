@@ -1,7 +1,8 @@
 .novidades {
     width: 100%;
-    /* margin: 50px 0; */
+    margin: 50px 0;
     flex-wrap: wrap;
+    background-image: linear-gradient(to bottom, #160025, #000c27);
 }
 
 .novidades div {
@@ -27,8 +28,7 @@
     margin: 10px 0;
 }
 
-.novidades .recomendado {
-    background-image: linear-gradient(to right, #fd9b53, #fdab50);
+.novidades .recomendado, .destaque, .envio {
     align-items: center;
     justify-content: center;
 }
@@ -37,22 +37,9 @@
     margin-top: 20px;
 }
 
-
-.novidades .destaque {
-    background-image: linear-gradient(to right, #b245fe, #5c85e8);
-    align-items: center;
-    justify-content: center;
-}
-
 .novidades .destaque img {
     width: 4rem;
     margin: 20px 0;
-}
-
-.novidades .envio {
-    background-image: linear-gradient(to right, #d33ab0, #dc3a93);
-    align-items: center;
-    justify-content: center;
 }
 
 .novidades .envio img {

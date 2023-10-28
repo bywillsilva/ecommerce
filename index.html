@@ -16,11 +16,9 @@
 </head>
 <body>
     <main class="flex-column">
-        <header class="flex-column" style="display: none;">
+        <header class="flex-column header">
             <nav class="flex-row">
-                <div class="flex-row">
-                    <img class="logo" src="./icons/logo-icon.png" alt="Logo W Store Importados">
-                </div>
+                <img class="logo" src="./icons/logo-icon.png" alt="Logo W Store Importados">
                 <ul class="flex-row">
                     <li><a href="http://">Home</a></li>
                     <li><a href="http://">Loja</a></li>
@@ -31,6 +29,27 @@
                             <img class="bag" src="./icons/bag-icon.svg" alt="Carrinho de compras W Store Importados">
                         </a>
                     </li>
+                </ul>
+                <ul class="flex-row">
+                    <li>
+                        <a href="">
+                            <img class="bag" src="./icons/bag-icon.svg" alt="Carrinho de compras W Store Importados">
+                        </a>
+                    </li>
+                    <li>
+                        <img class="open-icon" src="./icons/menu-icon.svg" alt="">
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <header class="flex-column header-mobile">
+            <img class="close-icon" src="./icons/close-icon.svg" alt="">
+            <nav>
+                <ul class="flex-column">
+                    <li><a href="http://">Home</a></li>
+                    <li><a href="http://">Loja</a></li>
+                    <li><a href="http://">Novidades</a></li>
+                    <li><a href="http://">Contato</a></li>
                 </ul>
             </nav>
         </header>
@@ -144,10 +163,11 @@
             <div>
                 <p>W'Store Importados - CNPJ: 48.842.346/0001-63</p>
                 <p>Rua Monte Calvo, 95D - Cidade Nova, Natal 59.072-780</p>
-                <p>wstoreimportados.natal@gmail.com - Telefone: (84)9 8604-6531</p>
+                <p>wstoreimportados.natal@gmail.com</p>
             </div>
         </footer>
     </main>
     <script src="./js/visualizar.js"></script>
+    <script src="./js/nav.js"></script>
 </body>
 </html>
