@@ -5,6 +5,7 @@ const headerMobile = document.querySelector(".header-mobile");
 
 closeIcon.addEventListener("click", () => {
     headerMobile.style.display = "none";
+    body.style.overflow = "auto";
 });
 
 openIcon.addEventListener("click", () => {
