@@ -38,7 +38,7 @@ O projeto é organizado de forma lógica com a seguinte estrutura de diretórios
 
 ## Acesso
 
-Este sistema é de fácil acesso e não requer instalação. Você pode experimentá-lo diretamente no seguinte link: [Acesse o Projeto Ecommerce](link_para_acessar_o_projeto)
+Este sistema é de fácil acesso e não requer instalação. Você pode experimentá-lo diretamente no seguinte link: [Acesse o Projeto Ecommerce](http://bywillsilva.github.io/ecommerce)
 
 ## Requisitos do Sistema
 
@@ -58,4 +58,4 @@ Não hesite em entrar em contato conosco para obter mais informações ou fazer 
 
 ---
 
-Obrigado por explorar o Projeto Ecommerce. Se você tiver alguma dúvida ou precisar de assistência, não hesite em nos contatar. Desejamos a você uma ótima experiência de compra!
+Obrigado por explorar o Projeto Ecommerce. Se você tiver alguma dúvida ou precisar de assistência, não hesite em me contatar. Desejamos a você uma ótima experiência!
